@@ -1,0 +1,348 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Background operations",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "validate the browser",
+            "match": {
+              "location": "stepDefinations.StepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigate to browser",
+            "match": {
+              "location": "stepDefinations.StepDefination.navigate_to_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "all done",
+            "match": {
+              "location": "stepDefinations.StepDefination.all_done()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T09:21:15.296Z",
+        "line": 17,
+        "name": "Login Page of the application",
+        "description": "",
+        "id": "validating-the-login-page;login-page-of-the-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23011000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 708000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the a51502574@gmail.com and the Abhishek@1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a51502574@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "Abhishek@1234",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinations.StepDefination.user_enter_the_and_the(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be on the home page",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_should_be_on_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "stepDefinations.StepDefination.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Background operations",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "validate the browser",
+            "match": {
+              "location": "stepDefinations.StepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigate to browser",
+            "match": {
+              "location": "stepDefinations.StepDefination.navigate_to_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "all done",
+            "match": {
+              "location": "stepDefinations.StepDefination.all_done()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T09:21:39.153Z",
+        "line": 18,
+        "name": "Login Page of the application",
+        "description": "",
+        "id": "validating-the-login-page;login-page-of-the-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20430000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1849000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the sumanag816@gmail.com and the sumanag91",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sumanag816@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "sumanag91",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinations.StepDefination.user_enter_the_and_the(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13093000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be on the home page",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_should_be_on_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "stepDefinations.StepDefination.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Background operations",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "validate the browser",
+            "match": {
+              "location": "stepDefinations.StepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigate to browser",
+            "match": {
+              "location": "stepDefinations.StepDefination.navigate_to_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "all done",
+            "match": {
+              "location": "stepDefinations.StepDefination.all_done()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T09:22:14.550Z",
+        "line": 19,
+        "name": "Login Page of the application",
+        "description": "",
+        "id": "validating-the-login-page;login-page-of-the-application;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42258000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 500000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the vfgd@gmail.com and the dfvshvv",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vfgd@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "dfvshvv",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinations.StepDefination.user_enter_the_and_the(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6235000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be on the home page",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_should_be_on_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "stepDefinations.StepDefination.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validating the login page",
+    "description": "",
+    "id": "validating-the-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/background.feature",
+    "tags": []
+  }
+]
